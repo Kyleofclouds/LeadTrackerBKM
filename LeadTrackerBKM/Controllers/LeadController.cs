@@ -15,7 +15,7 @@ namespace LeadTrackerBKM.Controllers
     {
         private LeadService CreateLeadService()
         {
-            var userId = Guid.Parse(User.Identity.GetUserId());
+            //var userId = Guid.Parse(User.Identity.GetUserId()); Not sure what this is used for, copied from elevenNote
             var leadService = new LeadService();//NoteService(userId);
             return leadService;
         }

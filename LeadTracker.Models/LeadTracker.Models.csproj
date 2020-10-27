@@ -59,6 +59,8 @@
     <Compile Include="LeadEdit.cs" />
     <Compile Include="LeadListItem.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RepCreate.cs" />
+    <Compile Include="RepDetail.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

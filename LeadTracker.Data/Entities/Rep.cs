@@ -13,6 +13,10 @@ namespace LeadTracker.Data.Entities
         public int ID { get; set; }
         [Required]
         public string Name { get; set; }
+        [Required]
+        public string Email { get; set; }
+
+        //STRETCH GOAL: property that tracks conversions
         public virtual ICollection<Interaction> Interactions { get; set; } = new List<Interaction>();
     }
 }
