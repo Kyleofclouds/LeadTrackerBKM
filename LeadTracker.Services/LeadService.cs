@@ -29,16 +29,7 @@ namespace LeadTracker.Services
                 return ctx.SaveChanges() == 1;
             }
         }
-        /*private readonly ApplicationDbContext _context = new ApplicationDbContext();
-        public bool CreateLead(LeadCreate model)
-        {
-            Lead entity = new Lead()
-            {
-                Company = model.Company
-            };
-            _context.Leads.Add(entity);
-            return _context.SaveChanges() == 1;
-        }*/
+     
         public IEnumerable<LeadListItem> GetLeads()
         {
             using (var ctx = new ApplicationDbContext())
@@ -63,12 +54,7 @@ namespace LeadTracker.Services
                 return query.ToArray();
             }
         }
-        /*public List<LeadDetail> GetAllLeads()
-        {
-            var leadEntities = _context.Leads.ToList();
-            var leadList = leadEntities.Select(l => new LeadDetail { ID = l.ID, Company = l.Company}).ToList();
-            return leadList;
-        }*/
+        
         public LeadDetail GetLeadByID(int id)
         {
             using (var ctx = new ApplicationDbContext())
@@ -89,15 +75,7 @@ namespace LeadTracker.Services
                     };
             }
         }
-        /*public LeadDetail GetLeadByID(int id)
-        {
-            var leadEntity = _context.Leads.Find(id);
-            var leadDetail = new LeadDetail()
-            {
-                Company = leadEntity.Company
-            };
-            return leadDetail;
-        }*/
+        
         public bool UpdateLead(LeadEdit model)
         {
             using (var ctx = new ApplicationDbContext())
