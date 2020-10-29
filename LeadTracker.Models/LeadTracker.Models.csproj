@@ -54,6 +54,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="InteractionCreate.cs" />
+    <Compile Include="InteractionDetail.cs" />
+    <Compile Include="InteractionEdit.cs" />
+    <Compile Include="InteractionListItem.cs" />
     <Compile Include="LeadCreate.cs" />
     <Compile Include="LeadDetail.cs" />
     <Compile Include="LeadEdit.cs" />
@@ -65,6 +69,12 @@
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LeadTracker.Data\LeadTracker.Data.csproj">
+      <Project>{3469DBCE-F03C-417C-A600-65A5D545B6E1}</Project>
+      <Name>LeadTracker.Data</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
