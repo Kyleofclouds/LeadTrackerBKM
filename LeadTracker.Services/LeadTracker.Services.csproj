@@ -54,6 +54,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="InteractionService.cs" />
     <Compile Include="RepService.cs" />
     <Compile Include="LeadService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -64,11 +65,11 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\LeadTracker.Data\LeadTracker.Data.csproj">
-      <Project>{3469dbce-f03c-417c-a600-65a5d545b6e1}</Project>
+      <Project>{3469DBCE-F03C-417C-A600-65A5D545B6E1}</Project>
       <Name>LeadTracker.Data</Name>
     </ProjectReference>
     <ProjectReference Include="..\LeadTracker.Models\LeadTracker.Models.csproj">
-      <Project>{a278e4a5-ae41-437b-87ab-d9b2b3d68c68}</Project>
+      <Project>{A278E4A5-AE41-437B-87AB-D9B2B3D68C68}</Project>
       <Name>LeadTracker.Models</Name>
     </ProjectReference>
   </ItemGroup>

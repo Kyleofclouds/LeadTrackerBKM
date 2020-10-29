@@ -30,3 +30,22 @@ C:\Users\bgare\Desktop\ElevenFiftyProjects\Blue Badge\LeadTrackerBKM\LeadTracker
 C:\Users\bgare\Desktop\ElevenFiftyProjects\Blue Badge\LeadTrackerBKM\LeadTrackerBKM\LeadTracker.Models\obj\Debug\LeadTracker.Models.csproj.CopyComplete
 C:\Users\bgare\Desktop\ElevenFiftyProjects\Blue Badge\LeadTrackerBKM\LeadTrackerBKM\LeadTracker.Models\obj\Debug\LeadTracker.Models.dll
 C:\Users\bgare\Desktop\ElevenFiftyProjects\Blue Badge\LeadTrackerBKM\LeadTrackerBKM\LeadTracker.Models\obj\Debug\LeadTracker.Models.pdb
+C:\BlueBadge\LeadTrackerBKM\LeadTracker.Models\bin\Debug\LeadTracker.Models.dll.config
+C:\BlueBadge\LeadTrackerBKM\LeadTracker.Models\bin\Debug\LeadTracker.Models.dll
+C:\BlueBadge\LeadTrackerBKM\LeadTracker.Models\bin\Debug\LeadTracker.Models.pdb
+C:\BlueBadge\LeadTrackerBKM\LeadTracker.Models\bin\Debug\EntityFramework.dll
+C:\BlueBadge\LeadTrackerBKM\LeadTracker.Models\bin\Debug\EntityFramework.SqlServer.dll
+C:\BlueBadge\LeadTrackerBKM\LeadTracker.Models\bin\Debug\LeadTracker.Data.dll
+C:\BlueBadge\LeadTrackerBKM\LeadTracker.Models\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\BlueBadge\LeadTrackerBKM\LeadTracker.Models\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\BlueBadge\LeadTrackerBKM\LeadTracker.Models\bin\Debug\LeadTracker.Data.pdb
+C:\BlueBadge\LeadTrackerBKM\LeadTracker.Models\bin\Debug\LeadTracker.Data.dll.config
+C:\BlueBadge\LeadTrackerBKM\LeadTracker.Models\bin\Debug\EntityFramework.xml
+C:\BlueBadge\LeadTrackerBKM\LeadTracker.Models\bin\Debug\EntityFramework.SqlServer.xml
+C:\BlueBadge\LeadTrackerBKM\LeadTracker.Models\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\BlueBadge\LeadTrackerBKM\LeadTracker.Models\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\BlueBadge\LeadTrackerBKM\LeadTracker.Models\obj\Debug\LeadTracker.Models.csprojAssemblyReference.cache
+C:\BlueBadge\LeadTrackerBKM\LeadTracker.Models\obj\Debug\LeadTracker.Models.csproj.CoreCompileInputs.cache
+C:\BlueBadge\LeadTrackerBKM\LeadTracker.Models\obj\Debug\LeadTracker.Models.csproj.CopyComplete
+C:\BlueBadge\LeadTrackerBKM\LeadTracker.Models\obj\Debug\LeadTracker.Models.dll
+C:\BlueBadge\LeadTrackerBKM\LeadTracker.Models\obj\Debug\LeadTracker.Models.pdb
