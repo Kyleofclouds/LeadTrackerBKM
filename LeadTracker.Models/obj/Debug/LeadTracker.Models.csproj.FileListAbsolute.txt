@@ -49,3 +49,6 @@ C:\BlueBadge\LeadTrackerBKM\LeadTracker.Models\obj\Debug\LeadTracker.Models.cspr
 C:\BlueBadge\LeadTrackerBKM\LeadTracker.Models\obj\Debug\LeadTracker.Models.csproj.CopyComplete
 C:\BlueBadge\LeadTrackerBKM\LeadTracker.Models\obj\Debug\LeadTracker.Models.dll
 C:\BlueBadge\LeadTrackerBKM\LeadTracker.Models\obj\Debug\LeadTracker.Models.pdb
+C:\Users\kylew\1150Projects\DotNetProjects\BlueBadge\LeadTrackerBKM\LeadTracker.Models\bin\Debug\LeadTracker.Data.dll
+C:\Users\kylew\1150Projects\DotNetProjects\BlueBadge\LeadTrackerBKM\LeadTracker.Models\bin\Debug\LeadTracker.Data.pdb
+C:\Users\kylew\1150Projects\DotNetProjects\BlueBadge\LeadTrackerBKM\LeadTracker.Models\bin\Debug\LeadTracker.Data.dll.config

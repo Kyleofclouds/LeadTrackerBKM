@@ -22,6 +22,6 @@ namespace LeadTracker.Data.Entities
         [DataType(DataType.EmailAddress)]
         public string Email { get; set; }
         public bool Converted { get; set; }
-        public virtual ICollection<Interaction> Interactions { get; set; } = new List<Interaction>();
+        //public virtual ICollection<Interaction> Interactions { get; set; } = new List<Interaction>();
     }
 }

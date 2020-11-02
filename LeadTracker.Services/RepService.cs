@@ -55,7 +55,7 @@ namespace LeadTracker.Services
             {
                 var entity =
                     ctx
-                        .Reps
+                        .Reps//Will need changed on GitHub
                         .Single(e => e.ID == id); //&& e.OwnerId == _userId);
                 return
                     new RepDetail
@@ -73,7 +73,7 @@ namespace LeadTracker.Services
             {
                 var entity =
                     ctx
-                        .Leads
+                        .Reps//will need changed on GitHub
                         .Single(e => e.ID == model.ID);// && e.OwnerId == _userId);
                 entity.Name = model.Name;
                 entity.Email = model.Email;

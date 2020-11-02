@@ -16,5 +16,7 @@ namespace LeadTracker.Models
         public string Description { get; set; }
         public DateTimeOffset CreatedUtc { get; set; }
         public DateTimeOffset? ModifiedUtc { get; set; }
+        public virtual Lead Lead { get; set; }
+        public virtual Rep Rep { get; set; }
     }
 }
