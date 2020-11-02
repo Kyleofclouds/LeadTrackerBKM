@@ -28,7 +28,7 @@ namespace LeadTracker.Services
             }
         }
 
-        public IEnumerable<InteractionListItem> GetInteractions()
+        public List<InteractionListItem> GetInteractions()
         {
             using (var ctx = new ApplicationDbContext())
             {
@@ -41,6 +41,8 @@ namespace LeadTracker.Services
                                 new InteractionListItem
                                 {
                                     InteractionID = e.InteractionID,
+                                    Lead = e.Lead,
+                                    Rep = e.Rep,
                                     LeadID = e.LeadID,
                                     RepID = e.RepID,
                                     TypeOfContact = e.TypeOfContact,
@@ -50,7 +52,7 @@ namespace LeadTracker.Services
                                 }
                         );
 
-                return query.ToArray();
+                return query.ToList();
             }
         }
 
@@ -67,8 +69,8 @@ namespace LeadTracker.Services
                     new InteractionDetail
                     {
                         InteractionID = entity.InteractionID,
-                        LeadID = entity.LeadID,
-                        RepID = entity.RepID,
+                        Lead = entity.Lead,
+                        Rep = entity.Rep,
                         TypeOfContact = entity.TypeOfContact,
                         Description = entity.Description,
                         CreatedUtc = entity.CreatedUtc,

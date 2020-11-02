@@ -106,3 +106,7 @@ C:\BlueBadge\LeadTrackerBKM\LeadTracker.Data\obj\Debug\LeadTracker.Data.pdb
 C:\BlueBadge\LeadTrackerBKM\LeadTracker.Data\obj\Debug\LeadTracker.Data.Migrations.InitialCreate.resources
 C:\BlueBadge\LeadTrackerBKM\LeadTracker.Data\obj\Debug\LeadTracker.Data.csproj.GenerateResource.cache
 C:\BlueBadge\LeadTrackerBKM\LeadTracker.Data\obj\Debug\LeadTracker.Data.Migrations.firstmigration.resources
+C:\Users\kylew\1150Projects\DotNetProjects\BlueBadge\LeadTrackerBKM\LeadTracker.Data\obj\Debug\LeadTracker.Data.Migrations.InitialCreate.resources
+C:\Users\kylew\1150Projects\DotNetProjects\BlueBadge\LeadTrackerBKM\LeadTracker.Data\obj\Debug\LeadTracker.Data.Migrations.firstmigration.resources
+C:\Users\kylew\1150Projects\DotNetProjects\BlueBadge\LeadTrackerBKM\LeadTracker.Data\obj\Debug\LeadTracker.Data.csproj.GenerateResource.cache
+C:\Users\kylew\1150Projects\DotNetProjects\BlueBadge\LeadTrackerBKM\LeadTracker.Data\obj\Debug\LeadTracker.Data.Migrations.anothermigration.resources

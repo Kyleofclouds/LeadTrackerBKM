@@ -17,6 +17,6 @@ namespace LeadTracker.Data.Entities
         public string Email { get; set; }
 
         //STRETCH GOAL: property that tracks conversions
-        public virtual ICollection<Interaction> Interactions { get; set; } = new List<Interaction>();
+        //public virtual ICollection<Interaction> Interactions { get; set; } = new List<Interaction>();
     }
 }
