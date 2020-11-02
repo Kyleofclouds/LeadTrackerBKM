@@ -9,11 +9,18 @@ namespace LeadTracker.Services
 {
     public class InteractionService
     {
+        //private readonly Guid _userId;
+
+        //public NoteService(Guid userId)
+        //{
+            //_userId = userId;
+        //}
         public bool CreateInteraction(InteractionCreate model)
             {
             var entity =
                 new Interaction()
                 {
+                    //OwnerId = _userId,
                     LeadID = model.LeadID,
                     RepID = model.RepID,
                     TypeOfContact = model.TypeOfContact,
@@ -46,7 +53,9 @@ namespace LeadTracker.Services
                                     TypeOfContact = e.TypeOfContact,
                                     Description = e.Description,
                                     CreatedUtc = e.CreatedUtc,
-                                    ModifiedUtc = e.ModifiedUtc
+                                    ModifiedUtc = e.ModifiedUtc,
+                                    Lead = e.Lead,
+                                    Rep = e.Rep
                                 }
                         );
 
@@ -85,10 +94,11 @@ namespace LeadTracker.Services
                     ctx
                         .Interactions
                         .Single(e => e.InteractionID == model.InteractionID);
+                        //.Single(e => e.ID == id && e.OwnerId == _userId);
 
                 entity.TypeOfContact = model.TypeOfContact;
                 entity.Description = model.Description;
-                entity.ModifiedUtc = model.ModifiedUtc;
+                entity.ModifiedUtc = DateTimeOffset.Now;
 
                 return ctx.SaveChanges() == 1;
             }
@@ -102,6 +112,7 @@ namespace LeadTracker.Services
                     ctx
                         .Interactions
                         .Single(e => e.InteractionID == id);
+                        //.Single(e => e.NoteId == noteId && e.OwnerId == _userId);
 
                 ctx.Interactions.Remove(entity);
 
