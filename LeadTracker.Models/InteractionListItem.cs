@@ -9,10 +9,8 @@ namespace LeadTracker.Models
         public int InteractionID { get; set; }
         public int LeadID { get; set; }
         public int RepID { get; set; }
-        [Required]
         [Display(Name = "Type of Contact")]
         public ContactType TypeOfContact { get; set; }
-        [Required]
         public string Description { get; set; }
         public DateTimeOffset CreatedUtc { get; set; }
         public DateTimeOffset? ModifiedUtc { get; set; }

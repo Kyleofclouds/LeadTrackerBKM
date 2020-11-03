@@ -90,7 +90,7 @@ namespace LeadTracker.Services
 
                 entity.TypeOfContact = model.TypeOfContact;
                 entity.Description = model.Description;
-                entity.ModifiedUtc = model.ModifiedUtc;
+                entity.ModifiedUtc = DateTimeOffset.Now;
 
                 return ctx.SaveChanges() == 1;
             }
