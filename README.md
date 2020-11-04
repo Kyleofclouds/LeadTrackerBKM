@@ -60,3 +60,5 @@ References: https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/con
 	https://docs.microsoft.com/en-us/ef/ef6/fundamentals/relationships
 	https://www.csharp-examples.net/linq-aggregation-methods/
 	https://stackify.com/n-tier-architecture/
+	
+Work Distribution: https://trello.com/b/iJNQYfkY/lead-tracker-api
